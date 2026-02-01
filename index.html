@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Melofucks.me</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #111;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      overflow: hidden;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    p {
+      font-size: 1.2rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Melofucks.me</h1>
+    <p>Coming soon. Brace yourself.</p>
+  </div>
+
+  <!-- Confetti Script -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script>
+    window.onload = () => {
+      confetti({
+        particleCount: 200,
+        spread: 100,
+        origin: { y: 0.6 }
+      });
+    };
+  </script>
+</body>
+</html>
